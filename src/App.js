@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 
 import FunctionComponentController from './Controllers/functionComponentController';
-import classComponentController from './Controllers/classComponentController';
 import ClassComponentController from './Controllers/classComponentController';
 
 function App() {
