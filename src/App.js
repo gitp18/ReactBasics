@@ -2,12 +2,15 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 
-import ImageController from './Controllers/image';
+import FunctionComponentController from './Controllers/functionComponentController';
+import classComponentController from './Controllers/classComponentController';
+import ClassComponentController from './Controllers/classComponentController';
 
 function App() {
   return (
     <div className="App">
-      <ImageController />  
+      <FunctionComponentController />
+      <ClassComponentController />
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         

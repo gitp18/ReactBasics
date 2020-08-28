@@ -16,7 +16,7 @@ export default class ImageController extends Component{
         return (
            <React.Fragment>
                <div>
-                    <h1>ImageController</h1>
+                    <h1>React Version: {React.version}&nbsp; ImageController</h1>
                     <img style={this.state.imgClass} src="https://picsum.photos/200" />
                     <img style={this.state.imgClass} src={this.state.imgUrl} />
                     <img style={this.state.imgClass} src={this.state.localImage1} />
