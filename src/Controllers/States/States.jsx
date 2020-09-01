@@ -1,6 +1,6 @@
 import React from 'react';
-import ClassComponent from './classComponent';
-
+//import ClassComponent from './classComponent';
+import UseState from './useState';
 
 
 
@@ -23,12 +23,20 @@ const itemsPurchasedList = () => {
 }
 
 export default function State() {
-    return <ClassComponent 
-        name={name} salary={salary} roles={roles} workExp={workExp} 
-        totaItemsPurchased={totaItemsPurchased} 
-        billingAddress={billingAddress} shippingAddress={shippingAddress} 
-        itemsPurchasedList={itemsPurchasedList}
-    />
+    return (
+        <React.Fragment>
+            <h1 className="text-center text-primary">"states" in React</h1>
+            
+                {/* <ClassComponent 
+                    name={name} salary={salary} roles={roles} workExp={workExp} 
+                    totaItemsPurchased={totaItemsPurchased} 
+                    billingAddress={billingAddress} shippingAddress={shippingAddress} 
+                    itemsPurchasedList={itemsPurchasedList}
+                /> */}
+                <UseState />
+            
+        </React.Fragment>
+    );
 }
 function Item() {
     return <ul><li key={1}>Mobile</li><li key={2}>Ipod</li></ul>;

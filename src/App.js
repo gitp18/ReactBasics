@@ -5,9 +5,9 @@ import './App.css';
 
 
 //import UI from './Controllers/UI/UI';
-import InternalProps from './Controllers/Props/InternalSource/InsideComponent/InternalProps';
-import PassedThroughComponent from './Controllers/Props/InternalSource/PassedThroughComponent/PassedThroughComponent';
-//import State from './Controllers/States/States';
+//import InternalProps from './Controllers/Props/InternalSource/InsideComponent/InternalProps';
+//import PassedThroughComponent from './Controllers/Props/InternalSource/PassedThroughComponent/PassedThroughComponent';
+import State from './Controllers/States/States';
 
 //import External from './Controllers/PropsInElement/External/External';
 
@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App" className="container-fluid">
       {/* <UI /> */}
-       <InternalProps />
-      <PassedThroughComponent />
-      {/* <State /> */}
+       {/* <InternalProps /> */}
+      {/* <PassedThroughComponent /> */}
+      <State />
       {/* <External /> */}
 
       {/* <ComponentCommunication /> */}
